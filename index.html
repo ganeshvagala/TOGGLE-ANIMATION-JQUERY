@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Toggle Slide</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+      <script>
+         $(document).ready(function(){
+            $('.toggle').click(function(){
+               $('.toggle').toggleClass('active')
+            })
+            $('.toggle').click(function(){
+               $('.box').toggleClass('active')
+            })
+         })
+      </script>
+   </head>
+   <body>
+      <div class="box">
+      <div class="toggle active"><span></span></div>
+      <p>Lorem ipsum dolor sit amet, consectetur 
+         adipisicing elit. Enim a doloribus cum 
+         fugit obcaecati itaque rerum, facilis, ea, 
+         error animi tempore quisquam. Deserunt 
+         doloribus quidem nobis exercitationem aut 
+         quae commodi.</p>
+         </div>
+   </body>
+</html>
